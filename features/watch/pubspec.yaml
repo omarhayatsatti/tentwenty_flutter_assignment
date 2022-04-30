@@ -1,0 +1,25 @@
+name: watch
+description: TenTwenty – Flutter Assignment
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^4.1.2+1
+  flutter_bloc: ^7.0.0
+  widgets:
+    path: ../../libraries/widgets
+  core:
+    path: ../../libraries/core
+  network:
+    path: ../../libraries/network
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

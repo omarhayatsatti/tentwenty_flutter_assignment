@@ -1,0 +1,37 @@
+name: widgets
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  simple_html_css: ^3.0.1
+  lottie: ^1.2.1
+  intl: ^0.17.0
+  auto_size_text: ^3.0.0
+  flutter_svg_provider: ^1.0.1
+  country_code_picker: ^1.6.0
+  url_launcher: ^6.0.20
+  flutter_svg: ^1.0.3
+  flutter_spinkit: ^4.1.2+1
+  cached_network_image: ^3.0.0
+  dots_indicator: ^1.2.0
+  flutter_page_indicator: ^0.0.3
+  shimmer: ^1.1.1
+  extended_image: ^4.1.0
+  expandable_text: 2.2.0
+  values:
+    path: ../../libraries/values
+  core:
+    path: ../../libraries/core
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
