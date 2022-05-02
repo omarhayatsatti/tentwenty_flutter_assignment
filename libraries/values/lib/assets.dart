@@ -15,6 +15,7 @@ class Assets {
   static final String closeBlackCross = "assets/cross_black.svg";
   static final String backArrowWhite = "assets/back_arrow_white.svg";
   static final String backArrowCs = "assets/back_arrow_cs.svg";
+  static final String icWatch = "assets/ic_watch_trailer.svg";
   static final String currentLocation = "assets/current_location.svg";
   static final String dottedBorderSelected = "assets/dotted_selected.svg";
   static final String dottedBorderNotSelected = "assets/dotted_notselected.svg";

@@ -16,7 +16,7 @@ class NetworkImageService extends StatelessWidget {
   final Widget errorWidget;
   final ColorFilter colorFilter;
   final double radius;
-  final bool isSuperMarket;
+  final bool isMovieDetailPage;
   final bool isListingBanner;
   final bool isRestaurent;
   BoxFit fit;
@@ -34,7 +34,7 @@ class NetworkImageService extends StatelessWidget {
       this.isImagePreviewer = false,
       this.isCoverImage = false,
       this.fit = BoxFit.cover,
-      this.isSuperMarket = false,
+      this.isMovieDetailPage = false,
       this.isRestaurent = false,
       this.errorWidget,
       this.isListingBanner = false});
@@ -47,7 +47,7 @@ class NetworkImageService extends StatelessWidget {
             imageBuilder: (context, imageProvider) => Container(
               decoration: isBannerImage || isListingBanner
                   ? BoxDecoration(
-                      borderRadius: isSuperMarket
+                      borderRadius: isMovieDetailPage
                           ? BorderRadius.only(
                               topLeft: Radius.circular(10),
                               topRight: Radius.circular(10),

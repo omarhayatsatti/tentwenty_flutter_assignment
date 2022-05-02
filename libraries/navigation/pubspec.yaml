@@ -13,7 +13,9 @@ dependencies:
     sdk: flutter
 
   fluro: ^2.0.3
-  splash:
+  home:
+    path: ../../features/home
+  watch:
     path: ../../features/watch
 
 

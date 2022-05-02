@@ -14,6 +14,12 @@ class AppColors {
   static final Color lightBlueColor = Color(0xFFDAE3EB);
 
   static final Color white = Color(0xFFFFFFFF);
+  static final Color genresAction = Color(0xFF15D2BC);
+  static final Color genresT = Color(0xFFE26CA5);
+  static final Color genresS = Color(0xFF564CA3);
+  static final Color genresF = Color(0xFFCD9D0F);
+
+  static final Color desTextColor = Color(0xFF8F8F8F);
   static final Color notSelectedColor = Color(0xFF827D88);
   static final Color darkGrey = Color(0xFF2E2739);
   static final Color borderColorCheckoutCounter = Color(0xFFEBEBEB);
@@ -36,7 +42,7 @@ class AppColors {
   static final Color orange = Color(0xFFF95A37);
   static final Color boxDecHeadingColorCs = Color(0xFFAB9D5D);
   static final Color lightGray = Color(0XFFF5F8FA);
-  static const Color green = Color(0xFF00985C);
+  static const Color blue = Color(0xFF61C3F2);
   static const Color borderColorTabs = Color(0xFFC0D2E4);
   static const Color filterBox = Color(0xFFF5FBF9);
   static final Color lightGreen = Color(0xFF21D95F);
@@ -45,6 +51,7 @@ class AppColors {
   static final Color removeButtonColor = Color(0xFFFFF2F2);
   static final Color txtColorSuccess = Color(0xFFBBBBBB);
   static final Color black = Color(0xFF000000);
+  static final Color lightBlue = Color(0xFF202C43);
   static final Color black7 = Color(0xFF403b33);
   static final Color lightWhite = Color(0xFFEFEFEF);
   static final Color gray95 = Color(0xFFF2F2F2);
@@ -100,9 +107,7 @@ class AppColors {
   static const Color skyBlue = Color(0xFFF1F5F8);
   static const Color addressBlue = Color(0xFF1C67FF);
   static const Color payUsing = Color(0xFF747272);
-  static const Color lightBlue = Color(0xFFF5F7FA);
   static const Color lightRed = Color(0xFFFAF5F5);
-
   static const Color promoGreen = Color(0xFF00A664);
   static const Color greyWhite = Color(0xFFF8F8F8);
 

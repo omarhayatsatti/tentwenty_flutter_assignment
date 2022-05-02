@@ -29,7 +29,7 @@ class Style {
     return _textStyleArchivo(FontStyle.normal, color, size, fontWeight,decoration,decorationStyle,lineHeight);
   }
   static TextStyle _textStyle(FontStyle fontSyle, Color color, double size, FontWeight fontWeight,{TextDecoration decoration,double lineHeight}) {
-    return GoogleFonts.archivo(
+    return GoogleFonts.poppins(
         fontStyle: fontSyle,
         fontWeight: fontWeight,
         fontSize: size,
@@ -76,7 +76,7 @@ class Style {
       fontStyle: FontStyle.normal,
       fontWeight: FontWeight.w500,
       fontSize: 16,
-      color: AppColors.green);
+      color: AppColors.blue);
 
   //Edit text hint style
   static final TextStyle editTxtHintStyle =

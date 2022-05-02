@@ -41,4 +41,20 @@ class _MoviesRepository implements MoviesRepository {
     return _result;
   }
 
+  @override
+  Future<Response<dynamic>> fetchMovieDetail(appKey, movieId) async {
+    const _extra = <String, dynamic>{};
+    final queryParameters = <String, dynamic>{};
+    final _data = <String, dynamic>{};
+    final _result = await _dio.fetch<Map<String, dynamic>>(
+        _setStreamType<Response<dynamic>>(Options(
+            method: 'GET',
+            extra: _extra)
+            .compose(_dio.options, '/movie/$movieId?api_key=$appKey',
+            queryParameters: queryParameters, data: _data)
+            .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
+    //final value = Response<dynamic>.fromJson(_result.data!);
+    return _result;
+  }
+
 }

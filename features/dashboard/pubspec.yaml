@@ -1,4 +1,4 @@
-name: watch
+name: dashboard
 description: TenTwenty – Flutter Assignment
 version: 0.0.1
 author:
@@ -18,8 +18,6 @@ dependencies:
     path: ../../libraries/core
   network:
     path: ../../libraries/network
-  navigation:
-    path: ../../libraries/navigation
 dev_dependencies:
   flutter_test:
     sdk: flutter

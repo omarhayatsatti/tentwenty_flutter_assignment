@@ -29,6 +29,7 @@ class CString {
   static final String addNewAddressText = "Add New Address";
   static final String selectDeliveryAddress = 'Select Delivery Address';
   static final String trackOrderTxt = "Track Order";
+  static final String getTickets = "Get Tickets";
   static final String closeTxt = "Close";
   static final String retryTxt = "Retry";
 
@@ -74,8 +75,12 @@ class CString {
   static final String addressLine1hintTxt = "Address line 1";
   static final String addressLine2hintTxt = "Address line 2";
   static final String dashBoard = "Dashboard";
+  static final String pageComingSoon = "This Page is coming soon";
   static final String more = "More";
   static final String watch = "Watch";
+  static final String overView = "Overview";
+  static final String genres = "Genres";
+  static final String watchTrailer = "Watch Trailer";
   static final String media = "Media Library";
   static final String mobileNumberTxt = "Mobile Number";
   static final String email = "Email";

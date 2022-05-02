@@ -8,7 +8,7 @@ class Routes {
   static String customMenu = "/customMenu";
   static String locationOption = "/locationOption";
   static String home = "/home";
-  static String locationManualOption = "/locationManualOption";
+  static String movieDetailPage = "/movieDetailPage";
   static String signUp = "/signUp";
   static String phoneVerification = "/phoneVerification";
   static String infoDialog = "/info_dialog";
@@ -69,5 +69,8 @@ class Routes {
             (BuildContext context, Map<String, List<String>> params) {});
     router.define(root,
         handler: watchHandler, transitionType: TransitionType.inFromLeft);
+    router.define(movieDetailPage + "/:movieId",
+        handler: movieDetailHandler,
+        transitionType: TransitionType.inFromLeft);
   }
 }

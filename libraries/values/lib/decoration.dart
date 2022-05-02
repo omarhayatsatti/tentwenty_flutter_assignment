@@ -21,9 +21,10 @@ class AppDecoration {
         ),
       ]);
 
-  static const BoxDecoration searchDecoration = BoxDecoration(
-    color: AppColors.sGrey,
-    borderRadius: BorderRadius.all(Radius.circular(50.0)),
+  static final BoxDecoration watchTrailerDecoration = BoxDecoration(
+    color: AppColors.transparent,
+      border: Border.all(color: AppColors.blue, style: BorderStyle.solid, width: 1),
+      borderRadius: BorderRadius.all(Radius.circular(10.0)),
   );
   static const BoxDecoration boxDecorationCs = BoxDecoration(
     color: AppColors.reqBoxColorCs,
@@ -39,7 +40,7 @@ class AppDecoration {
     borderRadius: BorderRadius.all(Radius.circular(10)),
   );
   static final BoxDecoration plusDecoration = BoxDecoration(
-    color: AppColors.green,
+    color: AppColors.blue,
     shape: BoxShape.rectangle,
     borderRadius: BorderRadius.all(Radius.circular(5.0)),
   );
@@ -112,7 +113,7 @@ class AppDecoration {
   );
   static final BoxDecoration boxDecorationGreen = BoxDecoration(
     color: AppColors.transparent,
-    border: Border.all(color: AppColors.green,style: BorderStyle.solid,width: 2),
+    border: Border.all(color: AppColors.blue,style: BorderStyle.solid,width: 2),
     borderRadius: BorderRadius.all(Radius.circular(12))
     //borderRadius: BorderRadius.only(topLeft:Radius.circular(20) ,topRight:Radius.circular(20) ),
   );
@@ -137,20 +138,27 @@ class AppDecoration {
         
       );
 
-  static final BoxDecoration topSheetBoxDecoration = BoxDecoration(
-      color: AppColors.white,
+  static final BoxDecoration boxDecorationAction = BoxDecoration(
+      color: AppColors.genresAction,
+
       //border: Border.all(color: AppColors.white,style: BorderStyle.solid,width: 1),
-      borderRadius: BorderRadius.only(
-          bottomLeft: Radius.circular(20.0),
-          bottomRight: Radius.circular(20.0)),
-      boxShadow: [
-        BoxShadow(
-          color: AppColors.textGrey.withOpacity(0.5),
-          blurRadius: 10,
-          //spreadRadius: 20,
-          offset: Offset(0, 3), //(x,y)
-        ),
-      ]);
+      borderRadius: BorderRadius.all(Radius.circular(16)));
+  static final BoxDecoration boxDecorationT = BoxDecoration(
+      color: AppColors.genresT,
+
+      //border: Border.all(color: AppColors.white,style: BorderStyle.solid,width: 1),
+      borderRadius: BorderRadius.all(Radius.circular(16)));
+  static final BoxDecoration boxDecorationS = BoxDecoration(
+      color: AppColors.genresS,
+
+      //border: Border.all(color: AppColors.white,style: BorderStyle.solid,width: 1),
+      borderRadius: BorderRadius.all(Radius.circular(16)));
+
+  static final BoxDecoration boxDecorationF = BoxDecoration(
+      color: AppColors.genresF,
+
+      //border: Border.all(color: AppColors.white,style: BorderStyle.solid,width: 1),
+      borderRadius: BorderRadius.all(Radius.circular(16)));
 
   static final BoxDecoration boxDecorationNewAddress = BoxDecoration(
       color: AppColors.white,

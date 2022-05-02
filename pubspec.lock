@@ -120,6 +120,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  dashboard:
+    dependency: transitive
+    description:
+      path: "features/dashboard"
+      relative: true
+    source: path
+    version: "0.0.1"
   data_connection_checker:
     dependency: transitive
     description:
@@ -310,6 +317,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.4"
+  home:
+    dependency: transitive
+    description:
+      path: "features/home"
+      relative: true
+    source: path
+    version: "0.0.1"
   html_unescape:
     dependency: transitive
     description:
@@ -401,6 +415,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.3"
+  media:
+    dependency: transitive
+    description:
+      path: "features/media"
+      relative: true
+    source: path
+    version: "0.0.1"
   meta:
     dependency: transitive
     description:
@@ -415,6 +436,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0+1"
+  more:
+    dependency: transitive
+    description:
+      path: "features/more"
+      relative: true
+    source: path
+    version: "0.0.1"
   navigation:
     dependency: "direct dev"
     description:
@@ -658,13 +686,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.1"
-  splash:
-    dependency: transitive
-    description:
-      path: "features/watch"
-      relative: true
-    source: path
-    version: "0.0.1"
   sqflite:
     dependency: transitive
     description:
@@ -805,6 +826,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
+  watch:
+    dependency: transitive
+    description:
+      path: "features/watch"
+      relative: true
+    source: path
+    version: "0.0.1"
   widgets:
     dependency: transitive
     description:

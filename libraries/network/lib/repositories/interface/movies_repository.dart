@@ -15,4 +15,9 @@ abstract class MoviesRepository {
   Future<Response> fetchUpComingMovies(
       @Query("api_key") String apiKey,
       @Query("page") int page);
+
+  @GET("/movie")
+  Future<Response> fetchMovieDetail(
+      @Query("api_key") String apiKey,
+      @Query("movie-id") int movieId);
 }

@@ -16,14 +16,14 @@ class LoadingDots extends StatelessWidget {
     return isCircularLoading
         ? Container(
             child: SpinKitRing(
-              color: color ?? AppColors.green,
+              color: color ?? AppColors.blue,
               size: size,
               lineWidth: 4,
             ),
           )
         : Container(
       color: Colors.transparent,
-         child: SpinKitThreeBounce(color: color ?? AppColors.green, size: size),
+         child: SpinKitThreeBounce(color: color ?? AppColors.blue, size: size),
           );
   }
 }

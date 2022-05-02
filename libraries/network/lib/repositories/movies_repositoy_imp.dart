@@ -14,13 +14,29 @@ class MoviesRepositoryImp {
   Future<UpComingMoviesResponse> fetchUpComingMovies(int page) async {
     var response;
     try {
-      response = await repository.fetchUpComingMovies(AppConstant.apiKey,page);;
+      response = await repository.fetchUpComingMovies(AppConstant.apiKey,page);
       response.data['httpStatus'] = response.statusCode;
       return UpComingMoviesResponse.fromJson(response.data);
     } catch (e) {
       if (e.response != null) {
         e.response.data['httpStatus'] = e.response.statusCode;
         return UpComingMoviesResponse.fromJson(e.response.data);
+      } else {
+        return null;
+      }
+    }
+  }
+
+  Future<MovieDetailResponse> fetchMovieDetail(int movieId) async {
+    var response;
+    try {
+      response = await repository.fetchMovieDetail(AppConstant.apiKey,movieId);
+      response.data['httpStatus'] = response.statusCode;
+      return MovieDetailResponse.fromJson(response.data);
+    } catch (e) {
+      if (e.response != null) {
+        e.response.data['httpStatus'] = e.response.statusCode;
+        return MovieDetailResponse.fromJson(e.response.data);
       } else {
         return null;
       }

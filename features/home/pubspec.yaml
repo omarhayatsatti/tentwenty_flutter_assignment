@@ -1,4 +1,4 @@
-name: watch
+name: home
 description: TenTwenty – Flutter Assignment
 version: 0.0.1
 author:
@@ -18,8 +18,14 @@ dependencies:
     path: ../../libraries/core
   network:
     path: ../../libraries/network
-  navigation:
-    path: ../../libraries/navigation
+  watch:
+    path: ../../features/watch
+  dashboard:
+    path: ../../features/dashboard
+  media:
+    path: ../../features/media
+  more:
+    path: ../../features/more
 dev_dependencies:
   flutter_test:
     sdk: flutter

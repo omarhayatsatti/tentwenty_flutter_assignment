@@ -8,7 +8,7 @@ class Dimens {
   static const double buttonHeightAddCustomization = 35.0;
   static final double buttonHeightIcon = 30;
   static final double buttonWidthIcon = 60;
-  static final double buttonHeightOrders = 40;
+  static final double buttonHeightTickets = 50;
   static final double buttonHeightClose = 34.0;
   static final double textFieldHeight = 54;
   static final double appbarHeight = 60;
